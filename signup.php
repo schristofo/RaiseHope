@@ -35,7 +35,7 @@
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                 <li class="active"><a href="index.php">Home</a></li>
-                <li><a href="index.html#disasters">Disasters</a></li>
+                <li><a href="index.php#disasters">Disasters</a></li>
                 <li><a href="organisation.php">Organisations</a></li>
                 <li><a href="login.php">Login</a></li>
                 <li><a href="signup.php">Sign up</a></li>
@@ -43,7 +43,7 @@
                 </ul>
             </nav>
 
-            <a href="make-post.html" class="get-started-btn scrollto">Start Fundraising</a>
+            <a href="make-post.php" class="get-started-btn scrollto">Start Fundraising</a>
 
         </div>
     </header>
