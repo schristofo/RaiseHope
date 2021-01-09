@@ -400,46 +400,47 @@
     <!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
+        </section>
+    <!-- End About Us Section -->
+
+    <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
       <div class="container">
 
         <div class="section-title">
           <h2>Team</h2>
-          <p>We are the best (music)</p>
+          <p>We are the best</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-1.jpg" alt="">
+              <img src="assets/img/team/savvas.png" alt="">
               <h4>Savvas Christoforidis</h4>
-              <span>Always late</span>
-              <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
-              </p>
+              <span>Dev Ops</span>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-2.jpg" alt="">
+              <img src="assets/img/team/natalia.jpg" alt="">
               <h4>Natalia Kostopoulou</h4>
-              <span>Somewhere in the middle</span>
-              <p>
+              <span>Art Director</span>
+              <!-- <p>
                 Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
-              </p>
+              </p> -->
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-3.jpg" alt="">
+              <img src="assets/img/team/vic.jpg" alt="">
               <h4>Victor Nastos</h4>
-              <span>Always on time</span>
-              <p>
+              <span>UI Designer</span>
+              <!-- <p>
                 Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-              </p>
+              </p> -->
             </div>
           </div>
 
@@ -448,6 +449,7 @@
 
       </div>
     </section><!-- End Team Section -->
+
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
