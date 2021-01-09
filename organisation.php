@@ -3,8 +3,8 @@
 <?php
 session_start();
 $servername = "localhost";
-$username = "root";
-$password = "natalia";
+$username = "admin";
+$password = "patatoMpataria2006!";
 $dbname = "mydb";
 
 // Create connection
