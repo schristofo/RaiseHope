@@ -426,7 +426,7 @@
             <div class="member">
               <img src="assets/img/team/natalia.jpg" alt="">
               <h4>Natalia Kostopoulou</h4>
-              <span>Art Director</span>
+              <span>Software Developer</span>
               <!-- <p>
                 Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
               </p> -->
@@ -437,7 +437,7 @@
             <div class="member">
               <img src="assets/img/team/vic.jpg" alt="">
               <h4>Victor Nastos</h4>
-              <span>UI Designer</span>
+              <span>Software Developer</span>
               <!-- <p>
                 Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
               </p> -->
