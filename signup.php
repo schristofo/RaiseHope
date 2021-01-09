@@ -59,6 +59,7 @@
             </div>
             <?php include('connection.php'); ?>
 			<div class="row justify-content-center">
+				<div class="col-lg-8 mt-5 mt-lg-0 d-flex align-items-stretch">
 				<form method="post" action="signup.php" role="form" class="php-email-form">
 				<?php include('errors.php'); ?>
 				<div class="form-group">
@@ -104,6 +105,7 @@
 
 		</div>
 		</div>
+			</div>
 		</section><!-- End Contact Section -->
 
     </main>
