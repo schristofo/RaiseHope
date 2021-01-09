@@ -78,7 +78,7 @@
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Raise Hope</span></h2>
               <p class="animate__animated animate__fadeInUp">Be the difference you want to see in the world. </p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Donate</a>
+              <a href="#disasters" class="btn-get-started animate__animated animate__fadeInUp scrollto">Donate</a>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Be a Donor</h2>
               <p class="animate__animated animate__fadeInUp"> <i>'In a gentle way, you can shake the world'</i> <br>-Mahatma Gandhi</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Donate</a>
+              <a href="#disasters" class="btn-get-started animate__animated animate__fadeInUp scrollto">Donate</a>
             </div>
           </div>
         </div>
