@@ -41,15 +41,15 @@
         <ul>
           <li class="active"><a href="index.php">Home</a></li>
           <!-- LINKKKKKKKKKKK -->
-          <li><a href="index.html#disasters">Disasters</a></li>
-          <li><a href="organisations.php">Organisations</a></li>
+          <li><a href="index.php#disasters">Disasters</a></li>
+          <li><a href="organisation.php">Organisations</a></li>
           <li><a href="login.php">Login</a></li>
           <li><a href="signup.php">Sign up</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="make-post.html" class="get-started-btn scrollto">Start Fundraising</a>
+      <a href="make-post.php" class="get-started-btn scrollto">Start Fundraising</a>
 
     </div>
   </header><!-- End Header -->
@@ -67,6 +67,7 @@
         </div>
 
         <div class="row justify-content-center">
+          <div class="col-lg-8 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form action="signup-organisation.php" method="post" role="form" class="php-email-form">
             <?php include('errors.php'); ?>
                     <div class="form-group">
@@ -122,7 +123,7 @@
           </div>
 
         </div>
-
+      </div>
       </div>
     </div>
     </section><!-- End Contact Section -->
