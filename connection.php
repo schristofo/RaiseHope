@@ -24,7 +24,7 @@ if(!isset($_SESSION)) {
 // echo $_SESSION['Id'] . " " . $_SESSION['Email'] . " " . $_SESSION['User'];
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', 'natalia', 'mydb');
+$db = mysqli_connect('localhost', 'root', 'patatoMpataria2006!', 'mydb');
 
 if($db === false){
     die("ERROR: Ekanes malakia. Vale ton kodiko sou :) </br></br>" . mysqli_connect_error());
