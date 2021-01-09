@@ -466,7 +466,7 @@
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>48 Edmond Rostand, Thessaloniki, GR 546 42</p>
+                <p>20 W 34th St, New York, NY 10001, United States</p>
               </div>
 
               <div class="email">
@@ -481,7 +481,8 @@
                 <p>+30 2310 434567</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1514.4107655750151!2d22.955439006094682!3d40.61176109510165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a838dfcab2d919%3A0xe897bab196e095c3!2zzpXOtM68z4zOvc60zr_PhSDOoc6_z4PPhM6szr0gNDgsIM6YzrXPg8-DzrHOu86_zr3Or866zrcgNTQ2IDQy!5e0!3m2!1sel!2sgr!4v1609983696060!5m2!1sel!2sgr" width="100%" height="290" frameborder="0" style="border:0;" allowfullscreen aria-hidden="false" tabindex="0"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12090.470159428245!2d-73.9856644!3d40.7484405!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sgr!4v1610219784527!5m2!1sen!2sgr
+" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
 
           </div>
