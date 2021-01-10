@@ -72,7 +72,7 @@
 						</div>
 						<div class="form-group">
 						<label>First Name</label>
-						<input type="name" class="form-control" placeholder="Firs Name" name="firstname" value="<?php echo $firstname; ?>">
+						<input type="name" class="form-control" placeholder="First Name" name="firstname" value="<?php echo $firstname; ?>">
 						</div>
 						<div class="form-group">
 						<label>Last Name</label>

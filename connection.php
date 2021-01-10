@@ -69,7 +69,7 @@ if (isset($_POST['reg_donor'])) {
     $query = "INSERT INTO donor (FirstName, LastName, Email, Phone)
           VALUES('$firstname', '$lastname', '$email' , '$phone')";
     mysqli_query($db, $query);
-    // $_SESSION['Id'] = mysqli_insert_id($db);
+    $_SESSION['Id'] = mysqli_insert_id($db);
     $queryaccounts = "INSERT INTO accounts (Email, Pass)
       VALUES('$email','$password')";
     mysqli_query($db, $queryaccounts);
@@ -153,7 +153,7 @@ if (isset($_POST['reg_organ'])) {
       //   $user = mysqli_fetch_assoc($result);
 
       //   if ($user) { // if user exists
-      //     if ($user['username'] === $username) {
+      //     if ($user['username']$last_id = mysqli_insert_id($db); === $username) {
       //       array_push($errors, "Username already exists");
       //     }
 
