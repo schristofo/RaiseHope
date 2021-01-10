@@ -41,15 +41,14 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.php">Home</a></li>
-          <!-- LINKKKKKKKKKKK -->
           <li><a href="index.php#disasters">Disasters</a></li>
           <li><a href="organisation.php">Organisations</a></li>
-          <li><a href="login.php">Login</a></li>
+          <li class="active"><a href="login.php">Login</a></li>
           <li><a href="signup.php">Sign up</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
-      <a href="make-post.html" class="get-started-btn">Start Fundraising</a>
+      <a href="login.php" class="get-started-btn">Start Fundraising</a>
 
     </div>
   </header><!-- End Header -->
@@ -118,5 +117,3 @@
 
 </body>
 </html>
-
-

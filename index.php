@@ -47,7 +47,7 @@
       <a href="index.php" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li><a href="index.php">Home</a></li>
+          <li class="active"><a href="index.php">Home</a></li>
           <li><a href="index.php#disasters">Disasters</a></li>
           <li><a href="organisation.php">Organisations</a></li>
           <?php
@@ -77,7 +77,7 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Raise Hope</span></h2>
-              <p class="animate__animated animate__fadeInUp">Be the difference you want to see in the world. </p>
+              <p class="animate__animated animate__fadeInUp"><i>'Giving is not just about make a donation, it s about making difference'</i> <br>-Kathy Calvin</p>
               <a href="#disasters" class="btn-get-started animate__animated animate__fadeInUp scrollto">Donate</a>
             </div>
           </div>

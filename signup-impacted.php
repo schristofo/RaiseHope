@@ -44,7 +44,7 @@
           <li><a href="index.php#disasters">Disasters</a></li>
           <li><a href="organisation.php">Organisations</a></li>
           <li><a href="login.php">Login</a></li>
-          <li><a href="signup.php">Sign up</a></li>
+          <li class="active"><a href="signup.php">Sign up</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -155,7 +155,7 @@
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-  <!-- Vendor JS Files 
+  <!-- Vendor JS Files
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>

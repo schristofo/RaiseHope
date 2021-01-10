@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <?php
 session_start();
@@ -80,37 +79,21 @@ if ($conn->connect_error) {
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <!-- LINKKKKKKKKKKK -->
-          <li><a href="index.php">Disasters</a></li>
-          <li><a href="organisation.php">Organisations</a></li>
-          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-          <!-- <li><a href="#team">Team</a></li> -->
-          <!-- <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-          <li><a href="login.php">Login</a></li>
-          <li><a href="signup.php">Sign up</a></li>
-
-        </ul>
-      </nav><!-- .nav-menu -->
-
-      <a href="make-post.html" class="get-started-btn">Start Fundraising</a>
-
+          <li><a href="index.php#disasters">Disasters</a></li>
+          <li class="active"><a href="organisation.php">Organisations</a></li>
+          <?php
+            if($_SESSION['User'] == "donor") {
+              echo "<li><a href='logout.php'>Log Out</a></li> </ul> </nav>";
+            }
+            elseif($_SESSION['User'] == "fundraiser" ) {
+              echo "<li><a href='logout.php'>Log Out</a></li> </ul> </nav> <a href='make-post.php' class='get-started-btn'>Start Fundraising</a>";
+            }
+            else {
+              echo "<li><a href='login.php'>Login</a></li> <li><a href='signup.php'>Sign up</a></li> </ul> </nav> <a href='login.php' class='get-started-btn'>Start Fundraising</a>";
+            }
+          ?>
     </div>
   </header><!-- End Header -->
 
@@ -147,7 +130,7 @@ if ($conn->connect_error) {
                 </div>
                 <div class="card-block">
                   <a href="#" class="btn btn-primary" style="background-color: #1d963f; border-color: #179039; margin-top: 20px;">Follow</a>
-                  
+
                 </div>
               </div>
               <?php
@@ -158,7 +141,7 @@ if ($conn->connect_error) {
                 $conn->close();
               ?>
 
-              
+
           </div>
 
       </div>

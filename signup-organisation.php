@@ -39,12 +39,11 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.php">Home</a></li>
-          <!-- LINKKKKKKKKKKK -->
+          <li><a href="index.php">Home</a></li>
           <li><a href="index.php#disasters">Disasters</a></li>
           <li><a href="organisation.php">Organisations</a></li>
           <li><a href="login.php">Login</a></li>
-          <li><a href="signup.php">Sign up</a></li>
+          <li class="active"><a href="signup.php">Sign up</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -91,7 +90,7 @@
                         <label for="staticEmail2">Current Number of Members :</label>
                       </div>
                       <div class="form-group mx-sm-3 mb-2">
-                        <input type="Number" class="form-control" id="inputPassword2" placeholder="Number of Members"  name="numm"> 
+                        <input type="Number" class="form-control" id="inputPassword2" placeholder="Number of Members"  name="numm">
                       </div>
                     </div>
                     <div class="form-group">

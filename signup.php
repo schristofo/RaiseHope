@@ -38,7 +38,7 @@
                 <li><a href="index.php#disasters">Disasters</a></li>
                 <li><a href="organisation.php">Organisations</a></li>
                 <li><a href="login.php">Login</a></li>
-                <li><a href="signup.php">Sign up</a></li>
+                <li class="active"><a href="signup.php">Sign up</a></li>
 
                 </ul>
             </nav>
@@ -120,7 +120,7 @@
         </div>
     </footer>
 
-  
+
 
   <!-- Vendor JS Files -->
   <!-- <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -134,6 +134,6 @@
   <!-- Template Main JS File -->
   <!-- <script src="assets/js/main.js"></script> -->
 
-  
+
 </body>
 </html>

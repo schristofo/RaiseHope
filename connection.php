@@ -296,13 +296,13 @@ if (isset($_POST['comment'])) {
     $did = $_SESSION['Id'];
     $title = $_GET['title'];
     $fid = $_GET['id'];
-    $_SESSION['i'] = $_SESSION['i'] + 1; 
+    $_SESSION['i'] = $_SESSION['i'] + 1;
     $index = $_SESSION['i'];
 
     // form validation: ensure that the form is correctly filled ...
     // by adding (array_push()) corresponding error unto $errors array
     if (empty($ccomment)) { array_push($errors, "Comment"); }
-    
+
 
     if (count($errors) == 0) {
       // $last_id = mysqli_insert_id($db);

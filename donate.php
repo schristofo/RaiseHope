@@ -47,7 +47,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li><a href="index.php">Home</a></li>
-          <li><a href="index.php#disasters">Disasters</a></li>
+          <li class="active"><a href="index.php#disasters">Disasters</a></li>
           <li><a href="organisation.php">Organisations</a></li>
           <?php
             if($_SESSION['User'] == "donor") {
@@ -87,9 +87,9 @@
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row" style="text-align: center; width: 100%; margin-top: 5%">
-                    <div class="form-group col-md"> 
-                    <img src="assets/img/team/fire.jpg" class="img-fluid" alt="" style="margin-bottom:5%"> 
-                    
+                    <div class="form-group col-md">
+                    <img src="assets/img/team/fire.jpg" class="img-fluid" alt="" style="margin-bottom:5%">
+
                     <h5 style="color: #157430 "><?php echo $result["Location"]. "<br>"; ?></h5>
                     <h4><?php echo $result["PostTitle"]; ?></h4>
                     <!-- <span><?php echo $row["PostDate"]; ?></span> -->
@@ -114,7 +114,7 @@
                 </form>
                 <hr style="width:70%;">
                 <h5 style = "margin-left: 35%">Comments</h5>
-                    
+
                     <div style = "margin : 0 auto;">
                         <?php
                         $sql = "SELECT Comment , FirstName ,LastName FROM comments JOIN donor ON comments.DonorID = donor.DonorID WHERE comments.PostFundraiserID = '$fundraiserid' AND comments.PostTitle = '$posttitle';";
@@ -124,8 +124,8 @@
                             // output data of each row
                             while($com = $comment->fetch_assoc()) {
                         ?>
-                        <p><?php echo $com["FirstName"]. " ". $com["LastName"].  " : " .$com["Comment"]; ?></p>   
-                        
+                        <p><?php echo $com["FirstName"]. " ". $com["LastName"].  " : " .$com["Comment"]; ?></p>
+
                         <?php
                             }
                         } else {
@@ -149,18 +149,18 @@
                     <button type="submit" class="btn btn-primary mb-2" name="report" style="background-color: white; color:black; border-color: #179039; margin-left: 38%">Report</button>
                 </form>
 
-                    
+
             </div>
           </div>
-          
 
-          
+
+
 
         </div>
 
       </div>
     </section><!-- End Contact Section -->
-  
+
 
 
 
